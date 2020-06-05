@@ -11,5 +11,12 @@ The hope of this package is to supply some simple classes/functions to allow for
 ```
 
 ### Usage:
+
+The package comes with several ETH contract addresses and ABI's in the contrancts folder.
+
 ```
 ```
+
+### Notes:
+##### Contract info:
+To make a contract json file you must get the the contract address and ABI from Etherscan. The contracts are usually different between token. First, search the token in the etherscann search bar, in the top right you will see the contract address in the "Profile Summary" section. Copy this and add the to the .json file. Then search the address in the search bar of Etherscan. On the page of the search result, find the "Contract" tab. Select it then look for the "Contract ABI" section of the page section. Paste this to the .json file. If this ABI doesn't work, try looking for it on the Github page for the coin.
